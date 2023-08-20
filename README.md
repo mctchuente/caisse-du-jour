@@ -2,7 +2,7 @@
 Interface avec Laravel pour l'opération d'une caisse de jour qui enregistre des encaissements en billets, pièces et centimes et en fait le récapitulatif.
 
 # Installation de l'application
-Il s'agit d'un projet Laravel, voici la liste des commandes à saisir dans l'invite de commandes à la dossier contenant les sources du projet après le téléchargement de ce dernier:
+Il s'agit d'un projet Laravel, voici la liste des commandes à saisir dans l'invite de commandes (avec les droits administrateur) à la racine du dossier contenant les sources du projet après le téléchargement de ce dernier:
 
 - composer update
 
@@ -23,9 +23,11 @@ Il s'agit d'un projet Laravel, voici la liste des commandes à saisir dans l'inv
 - php artisan serve
 
 ** Une fois tout ce qui a été décrit au dessus fait sur votre local, ouvrir le navigateur et saisir l'url "http://localhost:8000"
+
 ** Les accès par défaut sont:
 
 ** Login: admin@admin.com
+
 ** Mot de passe: demo123
 
 ## A propos de Laravel
